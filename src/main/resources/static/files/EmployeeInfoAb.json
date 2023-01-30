@@ -1,0 +1,50 @@
+{ 
+	"users": [
+		{
+		   "name":"Jack",
+		   "age":"30",
+		   "contactNumbers":[
+			  {
+				 "type":"Home",
+				 "number":"123 123-123"
+			  },
+			  {
+				 "type":"Office",
+				 "number":"321 321-321"
+			  }
+		   ],
+		   "spouse":null,
+		},
+		{
+		   "name":"Joker",
+		   "age":"30",
+		   "contactNumbers":[
+			  {
+				 "type":"Home",
+				 "number":"123 123-123"
+			  },
+			  {
+				 "type":"Office",
+				 "number":"321 321-321"
+			  }
+		   ],
+		   "spouse":null,
+		  
+		},
+		{
+		   "name":"Jack",
+		   "age":"28",
+		   "contactNumbers":[
+			  {
+				 "type":"Home",
+				 "number":"123 123-123"
+			  },
+			  {
+				 "type":"Office",
+				 "number":"321 321-321"
+			  }
+		   ],
+		   "spouse":null,
+		}
+	]
+}

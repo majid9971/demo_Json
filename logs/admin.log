@@ -1,0 +1,14 @@
+2023-01-16 17:44:45 : Starting HelloWorldApplication using Java 11.0.10 on Majids-VD with PID 26644 (E:\hello-world\target\classes started by majids in E:\hello-world)
+2023-01-16 17:44:45 : No active profile set, falling back to 1 default profile: "default"
+2023-01-16 17:44:48 : Tomcat initialized with port(s): 8082 (http)
+2023-01-16 17:44:48 : Starting service [Tomcat]
+2023-01-16 17:44:48 : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-01-16 17:44:49 : Initializing Spring embedded WebApplicationContext
+2023-01-16 17:44:49 : Root WebApplicationContext: initialization completed in 3526 ms
+2023-01-16 17:44:50 : Adding welcome page: class path resource [static/index.html]
+2023-01-16 17:44:50 : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2023-01-16 17:44:51 : Tomcat started on port(s): 8082 (http) with context path ''
+2023-01-16 17:44:51 : Started HelloWorldApplication in 7.347 seconds (JVM running for 12.826)
+2023-01-16 17:45:41 : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 17:45:41 : Initializing Servlet 'dispatcherServlet'
+2023-01-16 17:45:41 : Completed initialization in 1 ms

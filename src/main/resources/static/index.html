@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="fullForm">
+
+<h1>Upload file</h1>
+
+<div class="upload">
+<form id="uploadForm"action="/upload" method="post" enctype="multipart/form-data">
+
+<input id="singleFileUploadInput" type="file" name="FileToUpload"></input>
+<input id="uploadButton" type="submit" name="submit"></input>
+</form>
+</div>
+
+<h4>No of Parameters</h4>
+
+<form  id="paraForm">
+     
+       <select name="size" id="select1">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+      </select>  
+      
+    <!--   <input id="select1" type="text" ></input>
+      <input type="submit"></input>  -->
+    <!--  <button onclick="hideDiv()"> Submit </button> -->
+</form>
+
+<h4>1</h4>
+
+<div class="search" id="div1">
+<form  id="getJsonForm" action="/getJson" method="get">
+<h4>Key</h4>
+<input id="myKey"type="text" ></input>
+<h4>Value</h4>
+<input id="myValue" type="text" ></input>
+<input id="mySubmit" type="submit" name="submit"></input>
+</form>
+</div>
+<h4>2</h4>
+<div class="search" id="div2">
+<form  id="getJsonTwoForm" action="/getJsonTwo" method="get">
+<h4>Key</h4>
+<input id="Keys"type="text" ></input>
+<h4>Value</h4>
+<input id="Values" type="text" ></input>
+<h4>Key</h4>
+<input id="Keys1"type="text" ></input>
+<h4>Value</h4>
+<input id="Values1" type="text" ></input>
+<input id="mySubmit1" type="submit" name="submit"></input>
+</form>
+</div>
+<h4>3</h4>
+<div class="search" id="div3">
+<form  id="getJsonThreeForm" action="/getJsonThree" method="get">
+<h4>Key</h4>
+<input id="Key"type="text" ></input>
+<h4>Value</h4>
+<input id="Value" type="text" ></input>
+<h4>Key</h4>
+<input id="Key1"type="text" ></input>
+<h4>Value</h4>
+<input id="Value1" type="text" ></input>
+<h4>Key</h4>
+<input id="Key2"type="text" ></input>
+<h4>Value</h4>
+<input id="Value2" type="text" ></input>
+<input id="mySubmit2" type="submit" name="submit"></input>
+</form>
+</div>
+
+<div class="search">
+<form  id="searchForm" action="/getLine" method="get">
+<h4>Key</h4>
+<input id="myKeyLine"type="text" ></input>
+<h4>Value</h4>
+<input id="myValueLine" type="text"></input>
+<input type="submit" name="submit"></input>
+</form>
+</div>
+<h4>RESPONSE</h4>
+<body class="response">
+<p id="responseText">
+
+</p>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
